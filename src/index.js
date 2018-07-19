@@ -8,7 +8,7 @@ class HelloComponent extends React.Component {
   render() {
     return (
       <div>
-        <p>i am: {this.props.nickname}</p>
+        <h1>i am: {this.props.nickname}</h1>
       </div>
     );
   }
